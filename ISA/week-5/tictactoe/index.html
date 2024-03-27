@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <style>
+    .board{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:100vh;
+        width:100vw;
+    }
+    .cube{
+        background-color:#e8e8e7;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:100px;
+        width:100px;
+        margin:5px;
+    }
+    .turn{
+        text-align:center;
+        z-index:3;
+    }
+    h1{
+        margin:0;
+        padding:0;
+    }
+
+    </style>
+    <body>
+        <div class="turn">
+            <h1>PLAYER 1's turn</h1>
+        </div>
+        <div class="board">
+            <div class="r-1">
+                <div class="c-1 cube" onclick="append(event)">.</div>
+                <div class="c-2 cube" onclick="append(event)">.</div>
+                <div class="c-3 cube" onclick="append(event)">.</div>
+            </div> 
+            <div class="r-2">
+                <div class="c-4 cube" onclick="append(event)">.</div>
+                <div class="c-5 cube" onclick="append(event)">.</div>
+                <div class="c-6 cube" onclick="append(event)">.</div>
+
+            </div> 
+            <div class="r-3">
+                <div class="c-7 cube" onclick="append(event)">.</div>
+                <div class="c-8 cube" onclick="append(event)">.</div>
+                <div class="c-9 cube" onclick="append(event)">.</div>
+            </div> 
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
