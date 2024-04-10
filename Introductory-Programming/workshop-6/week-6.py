@@ -68,15 +68,51 @@ divide()
 # 2) Create a Python program called calculator with functions to perform the following arithmetic calculations, each should take two decimal parameters and return the result of the arithmetic calculation in question (add,substract,divide,multiply,modulo,exponent).
 
 def add(a,b):
+    """
+    returns a modulo b
+    Parameters:
+    a (int): a.
+    b (int): b.
+    
+    Returns:
+    int: The sum of a and b .
+    """
     return a+b;
 
 def multiply(a,b):
+    """
+    returns a modulo b
+    Parameters:
+    a (int): a.
+    b (int): b.
+    
+    Returns:
+    int: The product of a and b .
+    """
     return a*b;
 
 def divide(a,b):
+    """
+    returns a modulo b
+    Parameters:
+    a (int): a.
+    b (int): b.
+    
+    Returns:
+    int: The quotient of dividing a by b .
+    """
     return a/b;
 
 def modulo(a,b):
+    """
+    returns a modulo b
+    Parameters:
+    a (int): a.
+    b (int): b.
+    
+    Returns:
+    int: The remainder of dividing a by b .
+    """
     return a%b;
 
 def exponent(a,b):
@@ -109,7 +145,6 @@ exponent(a, b)
     int: The result of raising a to the power of b.
 (END)
 """
-
 '''
 '''
 #Part 4
@@ -121,3 +156,4 @@ def calculateMarks():
 
 calculateMarks()
 '''
+
