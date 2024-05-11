@@ -14,8 +14,8 @@ MAP = {
     "8": (2, 1),
     "9": (2, 2),
 }
-PLAYER = "\033[92m" + "" + "\033[0m"
-COMPUTER = "\033[91m" + "" + "\033[0m"
+PLAYER = "\033[92m" + "" + "\033[0m" # 'X' Glyph Nerd Font Might Not Be Supported Change to X
+COMPUTER = "\033[91m" + "" + "\033[0m" # 'O' Glyph Nerd Font Might Not Be Supported Change to O
 
 
 def draw_board(board):
